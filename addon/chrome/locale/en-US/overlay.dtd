@@ -9,6 +9,7 @@
 <!ENTITY zotero.__addonRef__.pref.basic.enableNoteReplaceMode.label "Replace Raw when Adding to Note">
 <!ENTITY zotero.__addonRef__.pref.audio.autoPlay "Auto play prononciation">
 <!ENTITY zotero.__addonRef__.pref.audio.showPlayBtn "Show play buttons in popup panel">
+<!ENTITY zotero.__addonRef__.pref.audio.transWithPronun "Add Pronunciation to Translation">
 
 <!ENTITY zotero.__addonRef__.pref.service.label "Service">
 <!ENTITY zotero.__addonRef__.pref.service.sentenceServices.label "Translation Services">

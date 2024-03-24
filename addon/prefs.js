@@ -34,6 +34,7 @@ pref("__prefsPrefix__.niutransDictLibList", "[]");
 pref("__prefsPrefix__.niutransMemoryLibList", "[]");
 pref("__prefsPrefix__.autoPlay", false);
 pref("__prefsPrefix__.showPlayBtn", true);
+pref("__prefsPrefix__.transWithPronun", false);
 pref("__prefsPrefix__.disabledLanguages", "");
 pref("__prefsPrefix__.extraEngines", "");
 pref("__prefsPrefix__.titleColumnMode", "raw");

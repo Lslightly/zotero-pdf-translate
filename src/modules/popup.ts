@@ -63,6 +63,9 @@ export function updateReaderPopup() {
       audiobox
     );
   }
+  if (task.audio.length > 0 && getPref("transWithPronun")) {
+    task.result = task.audio.map((audioData) => { return audioData.text; }).join(" ") + "\n" + task.result;
+  }
   translateButton.hidden = task.status !== "waiting";
   textarea.hidden = hidePopupTextarea || task.status === "waiting";
   textarea.value = task.result || task.raw;
